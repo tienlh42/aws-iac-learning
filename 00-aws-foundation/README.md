@@ -11,6 +11,8 @@ Mục tiêu: hiểu các dịch vụ lõi đủ để biết Terraform đang t�
 - [x] Cài AWS CLI, chạy `aws configure` (hoặc `aws configure sso`), kiểm tra bằng `aws sts get-caller-identity`
 
 ### IAM
+Bài thực hành: [iam-lab](iam-lab/README.md)
+
 - [ ] Phân biệt user, group, role, policy
 - [ ] Đọc hiểu một policy JSON (Effect, Action, Resource, Condition)
 - [ ] Hiểu least privilege và vì sao EC2 nên dùng role thay vì access key
