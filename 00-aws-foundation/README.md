@@ -5,10 +5,10 @@ Mục tiêu: hiểu các dịch vụ lõi đủ để biết Terraform đang t�
 ## Checklist
 
 ### Tài khoản và bảo mật
-- [ ] Tạo AWS account, bật MFA cho root
-- [ ] Tạo IAM user (hoặc IAM Identity Center) riêng để làm lab
-- [ ] Tạo AWS Budgets alert
-- [ ] Cài AWS CLI, chạy `aws configure` (hoặc `aws configure sso`), kiểm tra bằng `aws sts get-caller-identity`
+- [x] Tạo AWS account, bật MFA cho root
+- [x] Tạo IAM user (hoặc IAM Identity Center) riêng để làm lab
+- [x] Tạo AWS Budgets alert
+- [x] Cài AWS CLI, chạy `aws configure` (hoặc `aws configure sso`), kiểm tra bằng `aws sts get-caller-identity`
 
 ### IAM
 - [ ] Phân biệt user, group, role, policy

@@ -16,8 +16,8 @@ Mỗi giai đoạn có một thư mục: `README.md` chứa checklist và tài l
 
 ## Quy tắc an toàn chi phí
 
-- [ ] Bật MFA cho root account, không dùng root để làm lab
-- [ ] Tạo AWS Budgets alert (ví dụ 5 USD/tháng) trước khi tạo bất kỳ tài nguyên nào
+- [x] Bật MFA cho root account, không dùng root để làm lab
+- [x] Tạo AWS Budgets alert (ví dụ 5 USD/tháng) trước khi tạo bất kỳ tài nguyên nào
 - [ ] Học xong mỗi buổi chạy `terraform destroy`
 - [ ] Cẩn thận với tài nguyên tính tiền theo giờ: NAT Gateway, EKS control plane, RDS, ALB
 - [ ] Không commit `*.tfstate`, `*.tfvars`, access key (đã chặn trong `.gitignore`)
