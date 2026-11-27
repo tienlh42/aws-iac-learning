@@ -13,9 +13,9 @@ Mục tiêu: hiểu các dịch vụ lõi đủ để biết Terraform đang t�
 ### IAM
 Bài thực hành: [iam-lab](iam-lab/README.md)
 
-- [ ] Phân biệt user, group, role, policy
-- [ ] Đọc hiểu một policy JSON (Effect, Action, Resource, Condition)
-- [ ] Hiểu least privilege và vì sao EC2 nên dùng role thay vì access key
+- [x] Phân biệt user, group, role, policy
+- [x] Đọc hiểu một policy JSON (Effect, Action, Resource, Condition)
+- [x] Hiểu least privilege và vì sao EC2 nên dùng role thay vì access key
 
 ### VPC và network
 - [ ] VPC, CIDR, subnet public/private
